@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1>How can we help?</h1>
+            <h3>Send us a message!</h3>
+        </div>
+        <div class="contactform">
+            <form class="form" method="post" action="https://formspree.io/f/{form_id}">
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <div class="contact-form-group">
+                        <label for="Name" class="label">Your name</label>
+                        <div class="input-group">
+                            <input type="text" id="Name" name="Name" class="input-control" required autofocus>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-group">
+                        <label for="Email" class="label">Your email address</label>
+                        <div class="input-group">
+                            <input type="email" id="Email" name="Email" class="input-control" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-group">
+                        <label for="Message" class="label">Your message</label>
+                        <div class="input-group">
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Type your message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="Button">
+                        <button type="Submit">Send message</button>
+                    </div>
+                </fieldset>
+            </form>
+
+
+        </div>
+        <div class="googlemap">google-map</div>
+        <div class="address">address</div>
+        <div class="Footer">Footer</div>
+    </div>
+
+</body>
+
+</html>
