@@ -1,87 +1,85 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin:0;
+    margin: 0;
 
 }
 
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    height:100vh;
-    }
+    height: 100vh;
+}
 
-.container {  
+.container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr 5fr .5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.8fr 2.6fr 0.3fr;
     gap: 0px 0px;
     width: 100vw;
     height: 100vh;
     grid-auto-flow: row;
     grid-template-areas:
-      "Header Header Header"
-      "About About About"
-      "Jordi Nhung Thomas"
-      "Footer Footer Footer";
-  }
-  
-  .Header { grid-area: Header; }
-  
-  .Jordi { grid-area: Jordi; }
-  
-  .About { grid-area: About; }
-  
-  .Nhung { grid-area: Nhung; }
-  
-  .Thomas { grid-area: Thomas; }
-  
-  .Footer { grid-area: Footer; }
+        "Header Header Header"
+        "About About About"
+        "Content Content Content"
+        "Footer Footer Footer";
+}
 
-  .Header {
-    background-color: #5E2D34 ;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-
-
-
-        }
-  .About {
-    background-color: #5E2D34 ;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-        }
-
-  .Jordi {
-    background-color: #262E41;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-        }
-  .Nhung {
-    background-color: #262E41 ;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-        }
-  .Thomas {
-    background-color: #262E41 ;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-        }
-  .Footer {
-    background-color: #5E2D34 ;
-        color: white;
-        padding: 20px;
-        border: skyblue 1px solid;
-        }
-
-    .Thomas.flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.Header {
+    grid-area: Header;
+    justify-self: stretch;
+    background-color: #5E2D34;
+    color: white;
+    padding: 20px;
     
-    }
+
+    /* #5E2D34
+#CAB3A0
+#262E41 */
+    
+
+}
+
+.Content {
+    grid-area: Content;
+    background-color: #262E41;
+    color: white;
+    padding: 20px;
+    
+    display: flex;
+}
+
+.About {
+    grid-area: About;
+    background-color: #CAB3A0;
+    color: white;
+    padding: 20px;
+    
+}
+
+.Footer {
+    grid-area: Footer;
+    background-color: #5E2D34;
+    color: white;
+    padding: 20px;
+    
+}
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content: center;
+    height: auto;
+}
+.flex-item {
+         align-self: center;
+         justify-content: center;
+         }
+          
+
+
+
+
+
+    
