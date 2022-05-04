@@ -24,27 +24,6 @@ body {
         "Footer Footer";
 }
 
-.Header {
-    grid-area: Header;
-}
-
-.contactform {
-    grid-area: contactform;
-}
-
-.googlemap {
-    grid-area: googlemap;
-}
-
-.address {
-    grid-area: address;
-}
-
-
-.Footer {
-    grid-area: Footer;
-}
-
 
 
 .Header {
@@ -53,6 +32,7 @@ body {
     padding: 20px;
     border: skyblue 1px solid;
     text-align: center;
+    grid-area: Header;
 }
 
 .contactform {
@@ -60,27 +40,7 @@ body {
     color: black;
     padding: 20px;
     border: skyblue 1px solid;
-}
-
-.googlemap {
-    background-color: lightblue;
-    color: white;
-    padding: 20px;
-    border: skyblue 1px solid;
-}
-
-.address {
-    background-color: #CAB3A0;
-    color: white;
-    padding: 20px;
-    border: skyblue 1px solid;
-}
-
-.Footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    border: skyblue 1px solid;
+    grid-area: contactform;
 }
 
 .contact-form-group {
@@ -114,4 +74,28 @@ body {
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.googlemap {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+    grid-area: googlemap;
+}
+
+.address {
+    background-color: #CAB3A0;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+    grid-area: address;
+}
+
+.Footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+    grid-area: Footer;
 }
