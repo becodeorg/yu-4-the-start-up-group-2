@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="icon.png" type="img/icon">
     <title>Contact</title>
 </head>
 
@@ -16,48 +17,35 @@
             <h3>Send us a message!</h3>
             <br>
             <br>
-            <nav class="menu-container">
-                <!-- burger menu -->
-                <input type="checkbox" aria-label="Toggle menu" />
-                <span></span>
-                <span></span>
-                <span></span>
+            <!-- Navbar-->
+            <div class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item">
 
-                <!-- logo -->
-                <a href="#" class="menu-logo">
-                    <img src="linktologo" alt="Animage" />
-                </a>
+                        <!-- Cread logo-->
+                        <a href="#" class="menu-logo">
+                            <img src="icon.png" alt="Animage" />
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Contact</a>
+                    </li>
 
-                <!-- menu items -->
-                <div class="menu">
-                    <ul>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="Home.html">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="About.html">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a href="products.html">
-                                Products
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                </ul>
+
+            </div>
         </div>
 
+        <!---->
 
         <div class="contactform">
             <form class="form" method="post" action="https://formspree.io/f/{form_id}">
