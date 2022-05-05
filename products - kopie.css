@@ -1,0 +1,113 @@
+.features1 {
+    display: flex;
+    justify-content: start;  
+    background-color: #CAB3A0;
+}
+.features2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ada15b94;
+}
+.features3 {
+    display: flex;
+    justify-content: start;  
+    background-color: #cab3a0;
+}
+.info1 {
+    padding: 100px;
+    margin-right: 750px;
+}
+.info2 {
+    padding: 100px;
+    margin-left: 750px;
+}
+.info3 {
+    padding: 100px;
+    margin-right: 750px;
+}
+.image1, .image3 {
+    margin-left: 150px;
+}
+.image2 {
+    margin-right: 150px;
+}
+.Header {
+    font-size: 100px;
+    text-align: center;
+}
+/* .features {
+    display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px 20px; 
+            grid-auto-flow: row;
+            align-items: center;
+            grid-template-areas:
+            "image1 info1 filler1"
+            "filler2 info2 image2"
+            "image3 info3 filler3";
+}
+.filler1 {
+    grid-area: filler1;
+}
+.filler2 {
+    grid-area: filler2;
+}
+.filler3 {
+    grid-area: filler3;
+}
+.image1 {
+    grid-area: image1;
+}
+.image2 {
+    grid-area: image2;
+}
+.image3 {
+    grid-area: image3;
+}
+.info1 {
+    grid-area: info1;
+}
+.info2 {
+    grid-area: info2;
+}
+.info3 {
+    grid-area: info3;
+} */
+
+      /* .container {  
+        display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px 20px; 
+            grid-auto-flow: row;
+            grid-template-areas:
+              "Header Header Header"
+              "content content content"
+              "Footer Footer Footer";
+          }
+          
+          .Header { grid-area: Header; }
+          
+          .content { grid-area: content; }
+          
+          .Footer { grid-area: Footer; } */
+   
+
+
+.Header {
+    background-color: #5E2D34 ;
+        color: white;
+        padding: 20px;
+        border: skyblue 1px solid;
+}
+.content {background-color: #262E41 ;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+    }
+.Footer {background-color: #5E2D34;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+    }
